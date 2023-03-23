@@ -5,4 +5,4 @@ from command import commands
 print(" Simple Calculator")
 print("-----------------------------")
 commands()
-
+#I've simplified commands into its own file so that the main file is cleaner and easier to look at while the rest of the files contain all of the code needed for the program to function.
