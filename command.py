@@ -9,7 +9,10 @@ def commands():
     command = input("\nEnter a command (help for help): ").lower()
     if command == "help":
       print("Commands: (n and m represent integers) \n- help: see all available commands \n- add: adds two integers “n add m” \n- sub: subtracts two integers “n sub m” \n- div: divides two integers “n div m” \n- mult: multiplies two integers “n mult m” \n- ^: takes n to the power of m “n ^ m” \n- !: finds factorial of n “n!”")
+    #
     if command == "add":
       addition()
     if command == "sub":
       subtraction()
+    else:
+      print("\nInvalid command. Try again")
